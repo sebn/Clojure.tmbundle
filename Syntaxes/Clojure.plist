@@ -114,7 +114,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?i:null|nil)\b</string>
+			<string>\b(?i:null|nil|true|false)\b</string>
 			<key>name</key>
 			<string>constant.language.clojure</string>
 		</dict>
