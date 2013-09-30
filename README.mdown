@@ -1,3 +1,6 @@
+This bundle is mostly a fork of the [List bundle](https://github.com/textmate/lisp.tmbundle),
+modified to support [Clojure](http://clojure.org/).
+
 # Installation
 
 You can install this bundle in TextMate by opening the preferences and going to the bundles tab. After installation it will be automatically updated for you.

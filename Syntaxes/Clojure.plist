@@ -6,16 +6,13 @@
 	<string></string>
 	<key>fileTypes</key>
 	<array>
-		<string>lisp</string>
-		<string>cl</string>
-		<string>l</string>
-		<string>mud</string>
-		<string>el</string>
+		<string>clj</string>
+		<string>cljs</string>
 	</array>
-	<key>keyEquivalent</key>
-	<string>^~L</string>
+  <!-- <key>keyEquivalent</key> -->
+  <!-- <string>^~L</string> -->
 	<key>name</key>
-	<string>Lisp</string>
+	<string>Clojure</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -26,7 +23,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.whitespace.comment.leading.lisp</string>
+					<string>punctuation.whitespace.comment.leading.clojure</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -41,13 +38,13 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.comment.lisp</string>
+							<string>punctuation.definition.comment.clojure</string>
 						</dict>
 					</dict>
 					<key>end</key>
 					<string>\n</string>
 					<key>name</key>
-					<string>comment.line.semicolon.lisp</string>
+					<string>comment.line.semicolon.clojure</string>
 				</dict>
 			</array>
 		</dict>
@@ -57,18 +54,18 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>storage.type.function-type.lisp</string>
+					<string>storage.type.function-type.clojure</string>
 				</dict>
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.function.lisp</string>
+					<string>entity.name.function.clojure</string>
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(\b(?i:(defun|defmethod|defmacro))\b)(\s+)((\w|\-|\!|\?)*)</string>
+			<string>(\b(?i:(fn|defn|defn-|definline|defmacro|defproject|defresource|defroutes|ns))\b)(\s+)((\w|\-|\!|\?)*)</string>
 			<key>name</key>
-			<string>meta.function.lisp</string>
+			<string>meta.function.clojure</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -76,13 +73,13 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.constant.lisp</string>
+					<string>punctuation.definition.constant.clojure</string>
 				</dict>
 			</dict>
 			<key>match</key>
 			<string>(#)(\w|[\\+-=&lt;&gt;'"&amp;#])+</string>
 			<key>name</key>
-			<string>constant.character.lisp</string>
+			<string>constant.character.clojure</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -90,48 +87,48 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.variable.lisp</string>
+					<string>punctuation.definition.variable.clojure</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.variable.lisp</string>
+					<string>punctuation.definition.variable.clojure</string>
 				</dict>
 			</dict>
 			<key>match</key>
 			<string>(\*)(\S*)(\*)</string>
 			<key>name</key>
-			<string>variable.other.global.lisp</string>
+			<string>variable.other.global.clojure</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?i:case|do|let|loop|if|else|when)\b</string>
+			<string>\b(?i:if|do|let|letfn|loop|recur|throw|try|for|doseq|if-let|when|when-let|when-not)\b</string>
 			<key>name</key>
-			<string>keyword.control.lisp</string>
+			<string>keyword.control.clojure</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\b(?i:eq|neq|and|or)\b</string>
 			<key>name</key>
-			<string>keyword.operator.lisp</string>
+			<string>keyword.operator.clojure</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\b(?i:null|nil)\b</string>
 			<key>name</key>
-			<string>constant.language.lisp</string>
+			<string>constant.language.clojure</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\b(?i:cons|car|cdr|cond|lambda|format|setq|setf|quote|eval|append|list|listp|memberp|t|load|progn)\b</string>
 			<key>name</key>
-			<string>support.function.lisp</string>
+			<string>support.function.clojure</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\.?[0-9]*)|(\.[0-9]+))((e|E)(\+|-)?[0-9]+)?)(L|l|UL|ul|u|U|F|f|ll|LL|ull|ULL)?\b</string>
 			<key>name</key>
-			<string>constant.numeric.lisp</string>
+			<string>constant.numeric.clojure</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -141,7 +138,7 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.string.begin.lisp</string>
+					<string>punctuation.definition.string.begin.clojure</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -151,25 +148,25 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.string.end.lisp</string>
+					<string>punctuation.definition.string.end.clojure</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>string.quoted.double.lisp</string>
+			<string>string.quoted.double.clojure</string>
 			<key>patterns</key>
 			<array>
 				<dict>
 					<key>match</key>
 					<string>\\.</string>
 					<key>name</key>
-					<string>constant.character.escape.lisp</string>
+					<string>constant.character.escape.clojure</string>
 				</dict>
 			</array>
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>source.lisp</string>
+	<string>source.clojure</string>
 	<key>uuid</key>
-	<string>00D451C9-6B1D-11D9-8DFA-000D93589AF6</string>
+  <string>DB82770C-7539-42DA-8C51-3F75E49A2E38</string>
 </dict>
 </plist>
