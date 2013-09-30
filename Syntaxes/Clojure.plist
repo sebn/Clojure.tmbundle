@@ -63,7 +63,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(\b(?i:(fn|def|defn|defn-|definline|defmacro|defproject|defresource|defroutes|ns))\b)(\s+)((\w|\-|\!|\?)*)</string>
+			<string>(\b(?i:(fn|def|defn|defn-|definline|defmacro|defproject|defresource|defroutes|ns))\b)(\s+)((\w|\-|\.|\!|\?)*)</string>
 			<key>name</key>
 			<string>meta.function.clojure</string>
 		</dict>
