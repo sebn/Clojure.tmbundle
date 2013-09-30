@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>(let (${1:variables})
-	($0))</string>
+	<string>(let [${1:variables}]
+	$0)</string>
 	<key>name</key>
 	<string>let</string>
 	<key>scope</key>
-	<string>source.lisp</string>
+	<string>source.clojure</string>
 	<key>tabTrigger</key>
 	<string>let</string>
 	<key>uuid</key>
-	<string>ABEDBF95-4BA7-47EE-9B33-8FE60793A4D7</string>
+	<string>D0BCF461-C800-4E79-93A4-0142557475FD</string>
 </dict>
 </plist>

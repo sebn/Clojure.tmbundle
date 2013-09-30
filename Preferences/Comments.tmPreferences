@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>Comments</string>
 	<key>scope</key>
-	<string>source.lisp</string>
+	<string>source.clojure</string>
 	<key>settings</key>
 	<dict>
 		<key>shellVariables</key>
@@ -31,6 +31,6 @@
 		</array>
 	</dict>
 	<key>uuid</key>
-	<string>DD4CB5ED-97E7-4619-A6AF-C88AA691EFBF</string>
+	<string>9A6DA0E9-DB51-4674-A9C9-F2A585B2EC86</string>
 </dict>
 </plist>

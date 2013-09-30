@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>Miscellaneous</string>
 	<key>scope</key>
-	<string>source.lisp</string>
+	<string>source.clojure</string>
 	<key>settings</key>
 	<dict>
 		<key>highlightPairs</key>
@@ -46,6 +46,6 @@
 		</array>
 	</dict>
 	<key>uuid</key>
-	<string>BC1D28C8-E02B-4040-AC25-F39ABE04F1AD</string>
+	<string>69173BBD-56E0-4086-ABB7-711BAF992281</string>
 </dict>
 </plist>

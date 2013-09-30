@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>(defmacro ${1:name} (${2:parameters})
+	<string>(defmacro ${1:name} [${2:parameters}]
 	"${3:Documentation for $1.}"
-	($0))</string>
+	$0)</string>
 	<key>name</key>
 	<string>defmacro</string>
 	<key>scope</key>
-	<string>source.lisp</string>
+	<string>source.clojure</string>
 	<key>tabTrigger</key>
 	<string>mac</string>
 	<key>uuid</key>
-	<string>8DD75FAF-4AAD-43EA-9DF4-77AD49F3B41C</string>
+	<string>5814BDCB-1766-4809-A7CD-589736730540</string>
 </dict>
 </plist>

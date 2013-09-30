@@ -8,10 +8,10 @@
 	<key>name</key>
 	<string>if</string>
 	<key>scope</key>
-	<string>source.lisp</string>
+	<string>source.clojure</string>
 	<key>tabTrigger</key>
 	<string>if</string>
 	<key>uuid</key>
-	<string>4DE50D32-BA58-4059-B493-8D30D4DA87B9</string>
+	<string>8C163781-F181-421B-B517-4DD839CD8C55</string>
 </dict>
 </plist>

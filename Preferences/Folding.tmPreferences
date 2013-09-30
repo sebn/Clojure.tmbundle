@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>Folding</string>
 	<key>scope</key>
-	<string>source.lisp</string>
+	<string>source.clojure</string>
 	<key>settings</key>
 	<dict>
 		<key>foldingStartMarker</key>
@@ -14,6 +14,6 @@
 		<string>\)</string>
 	</dict>
 	<key>uuid</key>
-	<string>BB337F90-149C-4B3E-AC05-3856795B60E8</string>
+	<string>6B457009-35CF-41CE-9663-6F22DB78FEB9</string>
 </dict>
 </plist>

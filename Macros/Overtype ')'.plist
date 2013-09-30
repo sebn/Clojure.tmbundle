@@ -59,7 +59,7 @@
 	<key>name</key>
 	<string>Overtype ')'</string>
 	<key>scope</key>
-	<string>source.lisp</string>
+	<string>source.clojure</string>
 	<key>scopeType</key>
 	<string>local</string>
 	<key>uuid</key>

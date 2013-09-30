@@ -3,15 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>(defconstant +${1:name}+ ${2:value}
-	"${3:Documentation for $1.}"))</string>
+	<string>(defn ${1:name} [${2:parameters}]
+	"${3:Documentation for $1.}"
+	$0)</string>
 	<key>name</key>
-	<string>defconstant</string>
+	<string>defn</string>
 	<key>scope</key>
-	<string>source.lisp</string>
+	<string>source.clojure</string>
 	<key>tabTrigger</key>
-	<string>const</string>
+	<string>defn</string>
 	<key>uuid</key>
-	<string>95C56BAE-65D1-4C91-A454-9FF839F56158</string>
+	<string>3A1B6FC6-8F90-47F8-AD99-91A269E9ECE6</string>
 </dict>
 </plist>

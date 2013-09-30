@@ -3,15 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>(defvar *${1:name}* ${2:value}
-	"${3:Documentation for $1.}")</string>
+	<string>(def *${1:name}*
+  "${2:Documentation for $1.}"
+  ${3:value})</string>
 	<key>name</key>
-	<string>defvar</string>
+	<string>def</string>
 	<key>scope</key>
-	<string>source.lisp</string>
+	<string>source.clojure</string>
 	<key>tabTrigger</key>
-	<string>var</string>
+	<string>def</string>
 	<key>uuid</key>
-	<string>0CB4BA46-D1CF-4E54-9479-B1159779C2F4</string>
+	<string>59C12791-9C5C-4C3A-9A04-4615189FCED6</string>
 </dict>
 </plist>
